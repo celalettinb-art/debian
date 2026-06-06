@@ -1,6 +1,6 @@
 # debian
-Consume und Export Ordner liegen unter /data/compose/x/ (oder /var/lib/docker/volumes/paperless_data/_data)
-Samba installieren und konfigurieren
+Consume und Export Ordner liegen unter /data/compose/x/ (oder /var/lib/docker/volumes/paperless_data/_data)<br>
+Samba installieren und konfigurieren<br>
 	apt install samba smbclient
 	nano /etc/samba/smb.conf
 		[paperless-consume]
